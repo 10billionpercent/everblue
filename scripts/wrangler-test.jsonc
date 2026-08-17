@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "everblue-sankarsana-test",
+  "main": "test.ts",
+  "compatibility_date": "2026-08-17",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "everblue",
+      "database_id": "e51c861d-a158-4458-8d9e-af8e2f648368",
+      "remote": true,
+    },
+  ],
+}
