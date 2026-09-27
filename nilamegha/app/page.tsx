@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { uploadTestFile } from "@/jagannatha/actions";
+import { uploadTestFile } from "../../jagannatha/actions";
 
 export default function TestStorage() {
   const [message, setMessage] = useState("");
