@@ -6,7 +6,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "everblue",
   "compatibility_date": "2026-08-17",
-  "main": "vinext/server/fetch-handler",
+  "main": "./jagannatha/worker.ts",
   "assets": {
     "directory": "dist/client",
     "not_found_handling": "none",
